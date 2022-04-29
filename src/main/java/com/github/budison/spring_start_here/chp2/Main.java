@@ -12,6 +12,11 @@ public class Main {
         // Get a reference of a bean of type Parrot from the Spring context
         Parrot p = context.getBean(Parrot.class);
 
+        System.out.println(p);
+        System.out.println(p.getName());
+
+        context.close();
+
         System.out.println(p.getName());
         
     }
