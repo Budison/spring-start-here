@@ -1,4 +1,4 @@
-package com.github.budison.spring_start_here;
+package com.github.budison.spring_start_here.chp2;
 
 import org.springframework.stereotype.Component;
 
@@ -10,7 +10,7 @@ import java.util.PrimitiveIterator;
  * @author Kevin Nowak
  */
 
-class Parrot {
+public class Parrot {
     private String name;
 
     public String getName() {

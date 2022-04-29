@@ -1,4 +1,4 @@
-package com.github.budison.spring_start_here;
+package com.github.budison.spring_start_here.chp2;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
